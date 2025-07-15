@@ -1,6 +1,3 @@
-import WorkspaceService from "../../modules/userManagement/workspaceService.js";
-import { updateById } from "./mongoUtils.js";
-
 export default class ProgressTracker {
     constructor({ totalEstimatedDuration, tableName, docId, socket }) {
         this.tableName = tableName;
@@ -10,7 +7,6 @@ export default class ProgressTracker {
         this.socket = socket;
         this.updateInterval = null;
         this.currentTarget = 0;
-        this.workspaceService = new WorkspaceService();
     }
 
     async startStep(stepPercentage) {

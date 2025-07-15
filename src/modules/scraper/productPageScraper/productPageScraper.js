@@ -1,8 +1,8 @@
 import { load } from 'cheerio';
 import { urlTypeEnum } from '../../../common/config/constants.js';
-import { chunkArray } from '../../common/utils/arrayUtils.js';
-import { downloadHtmls } from '../../common/utils/linkCrawlerUtils.js';
-import { getPriceFromString } from '../../common/utils/parserUtils.js';
+import { chunkArray } from '../../../common/utils/arrayUtils.js';
+import { downloadHtmls } from '../../../common/utils/linkCrawlerUtils.js';
+import { getPriceFromString } from '../../../common/utils/parserUtils.js';
 import productUrlRepo from '../productListScraper/productUrlRepo.js';
 import productDetailsRepo from './productDetailsRepo.js';
 

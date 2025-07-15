@@ -1,8 +1,8 @@
 import { load } from 'cheerio';
 import { urlTypeEnum } from '../../../common/config/constants.js';
 import { chunkArray } from '../../../common/utils/arrayUtils.js';
-import { downloadHtmls } from '../../common/utils/linkCrawlerUtils.js';
-import { getFullUrl } from '../../common/utils/urlUtils.js';
+import { downloadHtmls } from '../../../common/utils/linkCrawlerUtils.js';
+import { getFullUrl } from '../../../common/utils/urlUtils.js';
 import categoryRepo from '../homePageScraper/categoryRepo.js';
 import productUrlRepo from './productUrlRepo.js';
 

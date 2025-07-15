@@ -3,9 +3,7 @@ import fs from "fs";
 import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
 import { shortenHTML } from "../../common/utils/shortenHtmlUtils.js";
-import { aiService } from "../AIService/AIService.js";
-
-
+import { aiService } from "../../common/AIService/AIService.js";
 
 puppeteer.use(StealthPlugin());
 

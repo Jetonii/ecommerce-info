@@ -1,14 +1,13 @@
 import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
 import { collectionsEnum } from "../../common/config/constants.js";
-import eventEmitter from "../common/eventEmitter/eventEmitter.js";
-import { logErrors, logInfo } from "../common/utils/logger.js";
-import { shortenHTML } from "../common/utils/shortenHtmlUtils.js";
-import { AIHandler, aiService } from "../modules/AIService/AIService.js";
-import { connectToClickHouse, connectToMongo } from "../modules/db/db.js";
-import SiteAuditor from "../modules/siteAuditor/siteAuditor.js";
-import HomePageScraper from "./homePageScraper/homePageScraper.js";
-import HomePageScraper 
+import { eventEmitter } from "../../common/utils/generalUtils.js";
+import { logErrors, logInfo } from "../../common/utils/logger.js";
+import { shortenHTML } from "../../common/utils/shortenHtmlUtils.js";
+import { AIHandler, aiService } from "../../common/AIService/AIService.js";
+import { connectToClickHouse, connectToMongo } from "../../common/db/db.js";
+import SiteAuditor from "../siteAuditor/siteAuditor.js";
+import HomePageScraper from "./homePageScraper/homePageScraper.js"
 import ProductListScraper from "./productListScraper/productListScraper.js";
 import ProductPageScraper from "./productPageScraper/productPageScraper.js";
 
