@@ -1,8 +1,7 @@
 import { Router } from 'express';
-import SiteAuditor from '../modules/siteAuditor/siteAuditor.js';
-import productDetailsRepo from '../src/scraper/productPageScraper/productDetailsRepo.js';
-import Scraper from '../src/scraper/scraper.js';
-import { isValidUrl } from '../utils/urlUtils.js';
+import SiteAuditor from '../src/modules/siteAuditor/siteAuditor.js';
+import productDetailsRepo from '../src/modules/scraper/productPageScraper/productDetailsRepo.js';
+import { isValidUrl } from '../src/common/utils/urlUtils.js';
 
 const router = Router();
 

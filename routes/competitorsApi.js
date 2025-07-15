@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import ScrapeScheduler from '../modules/scrapeScheduler/scrapeScheduler.js';
-import { getFullUrl } from '../utils/urlUtils.js';
+import ScrapeScheduler from '../src/modules/scrapeScheduler/scrapeScheduler.js';
+import { getFullUrl } from '../src/common/utils/urlUtils.js';
 
 const router = Router();
 const scrapeScheduler = new ScrapeScheduler();
