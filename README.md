@@ -1,4 +1,4 @@
-# Ecommerce URL Scraper 🛒
+# AI Ecommerce Scraper 🛒
 
 A lightweight Node.js tool to extract product data from any e-commerce website using just the URL.
 
